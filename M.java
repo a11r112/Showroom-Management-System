@@ -13,7 +13,7 @@ public class M {
 
 static void option(){
 	
-	System.out.println("Enter an option to continue: \n0. Exit\n1. Menu");
+	System.out.println("\nEnter an option to continue: \n0. Exit\n1. Menu");
      int Op =scanner.nextInt();
 	switch(Op){
 	case 0:
@@ -22,7 +22,7 @@ case 1:
 	menu();
 	break;
 default:
-	System.out.println("Enter a valid option\n ");
+	System.out.println("\nEnter a valid option\n ");
 option();
 	}
 }
